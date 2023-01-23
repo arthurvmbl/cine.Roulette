@@ -1,0 +1,135 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* testes com o background */
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 16px;
+    }
+
+    #movie-container {
+        margin-top: 1rem;
+    }
+
+    #movie-cover {
+        width: 100%;
+        max-width: 300px;
+        border: none;
+    }
+
+    #movie-title {
+        font-size: 1.5rem;
+    }
+
+    #movie-year {
+        font-size: 1.2rem;
+    }
+
+    #movie-input {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+#movie-container {
+    display: none;
+    margin-top: 1.25rem;
+    text-align: center;
+}
+
+#movie-cover {
+    width: 15.625rem;
+    height: auto;
+    border: solid rgb(29, 29, 29) 2rem;
+    border-radius: 1rem;
+}
+
+#movie-title {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+#movie-year {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+#movie-input {
+    padding: 10px;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    width: 14.125rem;
+    height: 2.375rem;
+    background: #FDFCFC;
+    border: 2px solid #89B2F1;
+    border-radius: 5px;
+margin: 0 auto;
+}
+
+button {
+padding: 0.625rem 1.25rem;
+font-size: 1.0rem;
+margin-right: 10px;
+background-color: #4CAF50; /* Green */
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#movieplz-button {
+background-color: #008CBA; /* Blue */
+margin: 1rem auto;
+}
+
+#movieplz-button:hover {
+background-color: #425055; /* Blue */
+}
+
+#add-button {
+background-color: #ffa800; /* Orange */
+margin: 1rem auto;
+}
+
+#add-button:hover {
+background-color: #161615; /* Orange */
+color: #ffa800;
+}
+
+/* #reset-button {
+background-color: #f44336; /* Red */
+/* margin: 1rem auto;
+} */ 
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    color: #bd0000;
+    /* background-color: #181716; */
+    /* border: solid #e62c1e 4px;
+    border-style: dotted; */
+}
+
+/* h1:hover {
+} */
+
+.content-wrapper {
+    padding-bottom: 50px; /* the height of the footer */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 8px;
+    height: 50px; /* the height of the footer */
+}
